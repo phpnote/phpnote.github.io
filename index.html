@@ -41,7 +41,9 @@
 
     <script>
         $(function(){
-            $.post('http://test.phpnote.cn/', {}, function(res){
+
+            // http://test.phpnote.cn/, gitpages, 开启了全站https, 引入和请求的都必须是https, http会报错
+            $.post('https://test.phpnote.cn/', {}, function(res){
                 console.log(res);
             }, 'json');
 

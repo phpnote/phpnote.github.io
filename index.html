@@ -40,11 +40,15 @@
 
 
     <script>
-
         $(function(){
+            $.post('http://test.phpnote.cn/', {}, function(res){
+                console.log(res);
+            }, 'json');
+
+
+
             $('div').html('hahahah');
         });
-        
     </script>
 </body>
 </html>

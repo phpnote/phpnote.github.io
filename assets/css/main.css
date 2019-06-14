@@ -1,0 +1,22 @@
+.layui-logo {
+    cursor: pointer;
+}
+
+.layui-logo img {
+    width: 160px;
+}
+
+/* checkbox swich 样式优化 */
+.layui-form-switch i, .layui-form-onswitch i {
+    top: 0px;
+    width: 22px;
+    height: 22px;
+}
+
+.layui-form-onswitch i {
+    margin-left: -22px;
+}
+
+.layui-form-switch:not(.layui-form-onswitch) i {
+    left: 0px;
+}
